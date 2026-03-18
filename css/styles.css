@@ -34,7 +34,16 @@
 :root {
 	--text-color: #333;
 	--accent-color: #0a775f;
+
+	--accent-color-80: rgba(10, 119, 95, 0.8);
+	--accent-color-60: rgba(10, 119, 95, 0.6);
+
+	--accent-color-light-brown: #c99b67;
+	--accent-color-light-brown-80: rgba(201, 155, 103, 80%);
+	--accent-color-light-brown-60: rgba(201, 155, 103, 60%);
 	--outline-color: var(--accent-color);
+
+	--light-brown: #f3d7b7;
 }
 
 /* GLOBAL STYLES */
@@ -51,7 +60,7 @@ html {
 }
 
 *:focus {
-	outline: 2px dashed	 var(--outline-color);
+	outline: 2px dashed var(--outline-color);
 	outline-offset: 3px;
 }
 
@@ -71,6 +80,52 @@ body {
 img {
 	max-width: 100%;
 	height: auto;
+}
+
+/* BUTTON */
+
+.button {
+	display: inline-block;
+	padding: 16px 24px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 500;
+	line-height: normal;
+	letter-spacing: 1px;
+	border: 0;
+	border-radius: 100px;
+	cursor: pointer;
+	white-space: nowrap;
+}
+
+.button-green {
+	color: #fff;
+	background-color: var(--accent-color);
+}
+
+.button:hover {
+	background-color: var(--accent-color-80);
+}
+
+.button:active {
+	background-color: var(--accent-color-60);
+}
+
+.button-brown {
+	color: #fff;
+	background-color: var(--accent-color-light-brown);
+}
+
+.button-brown:hover {
+	background-color: var(--accent-color-light-brown-80);
+}
+
+.button-brown:active {
+	background-color: var(--accent-color-light-brown-60);
+}
+
+.button-brown:focus {
+	outline-color: var(--accent-color-light-brown);
 }
 
 /* VISUALLY-HIDDEN */
@@ -126,6 +181,7 @@ select:-webkit-autofill:focus {
 
 /* SITE HEADER HERO WRAPPER */
 .site-header-hero-wrapper {
+	background-color: var(--light-brown);
 	background-image: url("../images/header-light-bg.jpg");
 }
 
@@ -193,7 +249,63 @@ select:-webkit-autofill:focus {
 	opacity: 0.6;
 }
 
+/* HERO */
 
+.hero-container {
+	display: flex;
+	padding-left: 0;
+	padding-right: 0;
+}
+.hero-info-wrapper {
+	width: 100%;
+	max-width: 730px;
+	padding-left: 150px;
+	padding-right: 116px;
+	padding-top: 116px;
+}
+.hero-title {
+	font-size: 64px;
+	color: #000;
+	line-height: normal;
+	margin-top: 0;
+	margin-bottom: 24px;
+}
+.hero-text {
+	margin: 0;
+	line-height: 24px;
+	color: #000;
+}
+
+.hero-text:not(:last-child) {
+	margin-bottom: 34px;
+}
+
+/* Hero images */
+
+.hero-image {
+	width: 710px;
+	position: relative;
+}
+
+.hero-img {
+	display: block;
+	height: 710px;
+	height: 596px;
+	object-fit: cover;
+}
+
+.hero-badge {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	top: -80px;
+	left: -80px;
+	transform: rotate(-20	deg);
+}
+
+.hero-image-index {
+	height: 696px;
+}
 
 /* RETINA BACKGROUNDS */
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
