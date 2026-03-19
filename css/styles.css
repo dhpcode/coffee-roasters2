@@ -177,6 +177,7 @@ select:-webkit-autofill:focus {
 /* MAIN CONTENT */
 .main-content {
 	flex-grow: 1;
+	
 }
 
 /* SITE HEADER HERO WRAPPER */
