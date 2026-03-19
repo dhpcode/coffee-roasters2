@@ -311,12 +311,32 @@ select:-webkit-autofill:focus {
 /* INDEX COLLECTION */
 
 .index-collection-container {
-	padding: 20px 0;
+	/* padding-top: 20px;
+	padding-bottom: 20px; */
+	padding: 20px;
+	position: relative;
+	overflow: hidden;
 }
 .index-collection-inner {
 	background-color: var(--light-bg);
 	background-image: url("../images/index-collection/index-collection-bg.jpg");
 	padding: 50px 143px;
+}
+
+.leaves-left {
+	position: absolute;
+	top: 50px;
+	left: -10%;
+}
+.leaves-left-light {
+	position: absolute;
+	bottom: 170px;
+	left: -175px;
+}
+.right-mix {
+	position: absolute;
+	right: -300px;
+	top: 685px;
 }
 
 .index-collection-heading {
