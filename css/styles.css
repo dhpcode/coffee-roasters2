@@ -431,22 +431,34 @@ select:-webkit-autofill:focus {
 	margin: 0;
 	padding: 0;
 	display: flex;
+	gap: 20px;
 }
 
 .why-choose-us-item {
+	width: 433px;
 }
 .why-choose-us-item-img {
+	display: block;
+	width: 433px;
+	height: 500px;
+	object-fit: cover;
+	margin-bottom: 28px;
 }
-.why-choose-us-item-info {
-}
-.item-info {
-}
+
 .item-info-title {
+	font-size: 30px;
+	font-weight: 500;
+	line-height: normal;
+	margin-top: 0;
+	margin-bottom: 10px;
 }
-.item {
+.item-info-text {
+	font-size: 18px;
+	line-height: 28px;
+	margin: 0;
+	padding-right: 56px;
 }
-.info-text {
-}
+
 
 /* RETINA BACKGROUNDS */
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
