@@ -574,7 +574,6 @@ select:-webkit-autofill:focus {
 .site-footer-socials {
 	display: flex;
 	gap: 30px;
-
 }
 .site-footer-socials-link {
 	text-decoration: none;
@@ -592,6 +591,127 @@ select:-webkit-autofill:focus {
 	width: 30px;
 	height: 30px;
 }
+
+/* ABOUT US PAGE */
+/* ABOUT US PAGE */
+/* ABOUT US PAGE */
+
+/* About us hero */
+.about-us-hero-image {
+	width: 710px;
+	height: 596px;
+}
+
+.about-us-hero-img {
+	display: block;
+}
+
+/* About us hero our commitment */
+
+.our-commitment {
+}
+
+.our-commitment-inner {
+	padding: 160px 64px 200px 165px;
+	display: flex;
+	gap: 185px;
+}
+.our-commitment-img {
+	width: 360px;
+	height: 364px;
+	position: relative;
+	z-index: 2;
+}
+
+.our-commitment-title {
+	margin-top: 0;
+	margin-bottom: 24px;
+	color: #000;
+	font-size: 48px;
+	line-height: normal;
+}
+
+.our-commitment-text {
+	margin: 0;
+	font-size: 18px;
+	line-height: 30px;
+}
+
+/* About us hero service quality */
+
+.quality {
+	margin-bottom: 20px;
+}
+.quality-inner {
+	padding: 60px 30px 90px 143px;
+	display: flex;
+	gap: 38px;
+	align-items: flex-end;
+	color: #fff;
+	background-image: url("../images/about-us/quality-bg.jpg");
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	background-size: 100% 510px;
+}
+
+.quality-title {
+	font-size: 50px;
+	line-height: normal;
+	margin-top: 0;
+	margin-bottom: 24px;
+}
+
+.quality-text {
+	margin-top: 0;
+	margin-bottom: 28px;
+	font-size: 18px;
+	line-height: 30px;
+}
+
+/* HEADQUARTERS */
+
+.about-us-headquarters-inner {
+	padding: 50px 30px 100px;
+}
+
+.about-us-headquarters-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	gap: 20px;
+}
+.about-us-headquarters-item {
+	width: calc(100% / 3);
+	height: 396px;
+	background-color: var(--light-bg);
+	display: flex;
+	padding: 45px 55px 40px 20px;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+.about-us-headquarters-item-info {
+	text-align-last: left;
+	margin-right: auto;
+}
+.about-us-headquarters-item-step-title {
+	font-size: 40px;
+	font-weight: 500;
+	line-height: normal;
+	text-transform: uppercase;
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+.about-us-headquarters-address {
+	margin: 0;
+	font-size: 18px;
+	line-height: 28px;
+}
+.img-map {
+	align-self: flex-start;
+	display: block;
+}
+
 
 /* RETINA BACKGROUNDS */
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
@@ -614,5 +734,9 @@ select:-webkit-autofill:focus {
 
 	.how-it-works-inner {
 		background-image: url("../images/how-it-works/green-bg@2x.jpg");
+	}
+
+	.quality-inner {
+		background-image: url("../images/about-us/quality-bg.jpg");
 	}
 }
