@@ -720,6 +720,10 @@ select:-webkit-autofill:focus {
 	padding-top: 20px;
 }
 
+.create-plan-how-it-works-inner {
+	padding: 80px 30px;
+}
+
 /* RETINA BACKGROUNDS */
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
 	only screen and (min--moz-device-pixel-ratio: 2),
