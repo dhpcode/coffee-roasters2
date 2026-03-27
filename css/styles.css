@@ -712,6 +712,13 @@ select:-webkit-autofill:focus {
 	display: block;
 }
 
+/* CREATE PLAN */
+/* CREATE PLAN */
+/* CREATE PLAN */
+
+.create-plan-how-it-works {
+	padding-top: 20px;
+}
 
 /* RETINA BACKGROUNDS */
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
