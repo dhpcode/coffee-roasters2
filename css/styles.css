@@ -724,6 +724,48 @@ select:-webkit-autofill:focus {
 	padding: 80px 30px;
 }
 
+.coffee-builder {
+}
+
+.coffee-builder-container {
+}
+.coffee-builder-sidebar {
+}
+.coffe-builder-steps {
+}
+.steps {
+}
+.steps-item {
+}
+.steps-item--active {
+}
+.steps-item-link {
+}
+.coffee-builder-content {
+}
+.coffee-builder-step {
+}
+.coffee-builder-step-title-wrapper {
+}
+.coffee-builder-step-title {
+}
+.coffe-builder-step-title-wrapper-img {
+}
+.coffe-builder-step-list {
+}
+.coffee-builder-step-item {
+}
+.coffee-builder-order {
+}
+.coffee-builder-order-inner {
+}
+.coffee-builder-order-summary {
+}
+.button {
+}
+.button-green {
+}
+
 /* RETINA BACKGROUNDS */
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
 	only screen and (min--moz-device-pixel-ratio: 2),
