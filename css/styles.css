@@ -724,10 +724,14 @@ select:-webkit-autofill:focus {
 	padding: 80px 30px;
 }
 
+/* COFFEE BUILDER */
+
 .coffee-builder {
 }
 
 .coffee-builder-container {
+	background-color: var(--light-bg);
+	background-image: url("../images/create-plan/create-plan-bg.jpg");
 }
 .coffee-builder-sidebar {
 }
@@ -792,4 +796,8 @@ select:-webkit-autofill:focus {
 	.quality-inner {
 		background-image: url("../images/about-us/quality-bg.jpg");
 	}
+
+	.coffee-builder-container {
+	background-image: url("../images/create-plan/create-plan-bg@2x.jpg");
+}
 }
